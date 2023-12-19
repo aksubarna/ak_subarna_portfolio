@@ -1,0 +1,8 @@
+	
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/pvaatoz/aksubornaportfolio.pvaatoz.com/
+    # - export DEPLOYPATH=/home/pvaatoz/public_html/
+    - /bin/cp * $DEPLOYPATH
+    # - /bin/cp style.css $DEPLOYPATH
